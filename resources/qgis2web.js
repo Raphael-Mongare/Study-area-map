@@ -449,7 +449,7 @@ var Title = new ol.control.Control({
     element: (() => {
         var titleElement = document.createElement('div');
         titleElement.className = 'top-right-title ol-control';
-        titleElement.innerHTML = '<h2 class="project-title">Figure 5b</h2>';
+        titleElement.innerHTML = '<h2 class="project-title">Fig. 5</h2>';
         return titleElement;
     })(),
     target: 'top-right-container'
